@@ -1,0 +1,2169 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_fea16e40a959ca0079f6dbbdd6885e60 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_fea16e40a959ca0079f6dbbdd6885e60" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_fea16e40a959ca0079f6dbbdd6885e60 = L.map(
+                "map_fea16e40a959ca0079f6dbbdd6885e60",
+                {
+                    center: [45.7578137, 4.8320114],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_abc84ac6128c26e18ba4c931c3166d9f = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+            var marker_88120e90dbdaf11c2a2293495280bdac = L.marker(
+                [45.7544636, 4.8458006],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_9efc15c9e7a5ff6fdd682bdbd6c25b2f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f7dd694b6f6a9def57fe9a2f3c84f84b = $(`<div id="html_f7dd694b6f6a9def57fe9a2f3c84f84b" style="width: 100.0%; height: 100.0%;">Bar de l'industrie 3 of 5 bubbles 10 Place Ambroise Courtois, Lyon, Rhone, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_9efc15c9e7a5ff6fdd682bdbd6c25b2f.setContent(html_f7dd694b6f6a9def57fe9a2f3c84f84b);
+            
+        
+
+        marker_88120e90dbdaf11c2a2293495280bdac.bindPopup(popup_9efc15c9e7a5ff6fdd682bdbd6c25b2f)
+        ;
+
+        
+    
+    
+            var marker_f53b42a74a0e5eb1db482f2b89e7ee7c = L.marker(
+                [45.7673439, 4.826338],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_b01b8b1a8dce3b7867234d223ec97967 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d1ce38c2249d040bae016b74691ee9db = $(`<div id="html_d1ce38c2249d040bae016b74691ee9db" style="width: 100.0%; height: 100.0%;">Le Cafe des Anges 3.5 of 5 bubbles 81 rue Vauban, Lyon, Rhone, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_b01b8b1a8dce3b7867234d223ec97967.setContent(html_d1ce38c2249d040bae016b74691ee9db);
+            
+        
+
+        marker_f53b42a74a0e5eb1db482f2b89e7ee7c.bindPopup(popup_b01b8b1a8dce3b7867234d223ec97967)
+        ;
+
+        
+    
+    
+            var marker_2ffcbd6aaf96f94f7130ba1c5fcfecaa = L.marker(
+                [45.7593749, 4.8274691],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_62d9a117ff19e7aa62870a0b1f69f771 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ee1874ecf816e4d2579c91a5e48c9e2d = $(`<div id="html_ee1874ecf816e4d2579c91a5e48c9e2d" style="width: 100.0%; height: 100.0%;">Pont Bonaparte 3.5 of 5 bubbles Lyon, Rhone, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_62d9a117ff19e7aa62870a0b1f69f771.setContent(html_ee1874ecf816e4d2579c91a5e48c9e2d);
+            
+        
+
+        marker_2ffcbd6aaf96f94f7130ba1c5fcfecaa.bindPopup(popup_62d9a117ff19e7aa62870a0b1f69f771)
+        ;
+
+        
+    
+    
+            var marker_64af6892c35ea3b30d7600b9b0e2f3da = L.marker(
+                [45.7660765, 4.8310584],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_129f020f3b91fd17e7dbd2017331a9ab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_31b953422fd7dc4519da823e46023293 = $(`<div id="html_31b953422fd7dc4519da823e46023293" style="width: 100.0%; height: 100.0%;">Bar de la pecherie 3 of 5 bubbles 1 rue de la Platiere, Lyon, Rhone, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_129f020f3b91fd17e7dbd2017331a9ab.setContent(html_31b953422fd7dc4519da823e46023293);
+            
+        
+
+        marker_64af6892c35ea3b30d7600b9b0e2f3da.bindPopup(popup_129f020f3b91fd17e7dbd2017331a9ab)
+        ;
+
+        
+    
+    
+            var marker_1370144a82dceddbb2b9d3e0ac999534 = L.marker(
+                [45.7646419, 4.8277995],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_8388550ed174b3eed3d4fb67f2ac0704 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8698777b7cb9704234ccf40208e3cba5 = $(`<div id="html_8698777b7cb9704234ccf40208e3cba5" style="width: 100.0%; height: 100.0%;">Bar Le Florian 4.5 of 5 bubbles 4 Place de la Baleine, Lyon, Rhone, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_8388550ed174b3eed3d4fb67f2ac0704.setContent(html_8698777b7cb9704234ccf40208e3cba5);
+            
+        
+
+        marker_1370144a82dceddbb2b9d3e0ac999534.bindPopup(popup_8388550ed174b3eed3d4fb67f2ac0704)
+        ;
+
+        
+    
+    
+            var marker_d58ae54262a6b2754f5acc7786f30253 = L.marker(
+                [45.7510908, 4.8264084],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_c032311c678641f5ff4efd601617cf93 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_41b197b12105625d5f2d95ae229d4c7b = $(`<div id="html_41b197b12105625d5f2d95ae229d4c7b" style="width: 100.0%; height: 100.0%;">La Cuisinerie 4.5 of 5 bubbles 16 rue Saint Georges, Lyon, Rhone, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_c032311c678641f5ff4efd601617cf93.setContent(html_41b197b12105625d5f2d95ae229d4c7b);
+            
+        
+
+        marker_d58ae54262a6b2754f5acc7786f30253.bindPopup(popup_c032311c678641f5ff4efd601617cf93)
+        ;
+
+        
+    
+    
+            var marker_13f0e097eaf4114f34d3bc6cb3be81f8 = L.marker(
+                [45.7510119, 4.848466],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_cb2b11e55762b88711a799c77c53a7a5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd2461e0fffa5718a80499624f5a6728 = $(`<div id="html_dd2461e0fffa5718a80499624f5a6728" style="width: 100.0%; height: 100.0%;">Octopus</div>`)[0];
+                popup_cb2b11e55762b88711a799c77c53a7a5.setContent(html_dd2461e0fffa5718a80499624f5a6728);
+            
+        
+
+        marker_13f0e097eaf4114f34d3bc6cb3be81f8.bindPopup(popup_cb2b11e55762b88711a799c77c53a7a5)
+        ;
+
+        
+    
+    
+            var marker_7563de393e9c69774a686d3cedbd23b5 = L.marker(
+                [45.7798815, 4.8349865],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_f1ee4ce3077bd72d54ed5922485a4017 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7f8be93ad14e8d21764ce0867404fa58 = $(`<div id="html_7f8be93ad14e8d21764ce0867404fa58" style="width: 100.0%; height: 100.0%;">Cépages &  Grignotages</div>`)[0];
+                popup_f1ee4ce3077bd72d54ed5922485a4017.setContent(html_7f8be93ad14e8d21764ce0867404fa58);
+            
+        
+
+        marker_7563de393e9c69774a686d3cedbd23b5.bindPopup(popup_f1ee4ce3077bd72d54ed5922485a4017)
+        ;
+
+        
+    
+    
+            var marker_2cd2e5505e80f5587db974cb204f6e76 = L.marker(
+                [45.7598095, 4.8479724],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_38cad0f5b6c61da97f7c427c05ead44e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a5a57b4eb9a5b7cb1f890285803d17bf = $(`<div id="html_a5a57b4eb9a5b7cb1f890285803d17bf" style="width: 100.0%; height: 100.0%;">Bar Le Florian 4.5 of 5 bubbles 4 Place de la Baleine, Lyon, Rhone, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_38cad0f5b6c61da97f7c427c05ead44e.setContent(html_a5a57b4eb9a5b7cb1f890285803d17bf);
+            
+        
+
+        marker_2cd2e5505e80f5587db974cb204f6e76.bindPopup(popup_38cad0f5b6c61da97f7c427c05ead44e)
+        ;
+
+        
+    
+    
+            var marker_bd804fe8780252ce5a03f6637f8b98c3 = L.marker(
+                [45.7480206, 4.8809734],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_b974d885b5f29fcdc970a497e18909f8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_99b502343b4b69a9a326eee74969bac8 = $(`<div id="html_99b502343b4b69a9a326eee74969bac8" style="width: 100.0%; height: 100.0%;">La Part-Dieu Shopping Center 3.5 of 5 bubbles 17 rue du Docteur Bouchut, Lyon, Rhone, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_b974d885b5f29fcdc970a497e18909f8.setContent(html_99b502343b4b69a9a326eee74969bac8);
+            
+        
+
+        marker_bd804fe8780252ce5a03f6637f8b98c3.bindPopup(popup_b974d885b5f29fcdc970a497e18909f8)
+        ;
+
+        
+    
+    
+            var marker_07ba58302f40b9a35ebfe80f046e76fc = L.marker(
+                [45.7484067, 4.8807591],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_30fa07c4a026c27f09c0be4687ba79e6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c31d84795ae73f6dddb04977526958db = $(`<div id="html_c31d84795ae73f6dddb04977526958db" style="width: 100.0%; height: 100.0%;">Les Glougloutons 5 of 5 bubbles 9 cours Docteur Long, Lyon, Rhone, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_30fa07c4a026c27f09c0be4687ba79e6.setContent(html_c31d84795ae73f6dddb04977526958db);
+            
+        
+
+        marker_07ba58302f40b9a35ebfe80f046e76fc.bindPopup(popup_30fa07c4a026c27f09c0be4687ba79e6)
+        ;
+
+        
+    
+    
+            var marker_9340c53354902d7df306df84c1ab56fe = L.marker(
+                [45.7312459, 4.8301513],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_881be2d37e1d24686d97f982e83aaf9d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_18491222eef8772f7212414fdc61d6cd = $(`<div id="html_18491222eef8772f7212414fdc61d6cd" style="width: 100.0%; height: 100.0%;">Brasserie L'Ouest 4 of 5 bubbles 1 quai du Commerce, Lyon, Rhone, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_881be2d37e1d24686d97f982e83aaf9d.setContent(html_18491222eef8772f7212414fdc61d6cd);
+            
+        
+
+        marker_9340c53354902d7df306df84c1ab56fe.bindPopup(popup_881be2d37e1d24686d97f982e83aaf9d)
+        ;
+
+        
+    
+    
+            var marker_88e1102f9284fe5247ce141223e224e0 = L.marker(
+                [45.7316168, 4.8295495],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_ad3a1d958a2855b34281255d2c363bef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5d8af3582f7a1ea252a8fcfc05d6bbe3 = $(`<div id="html_5d8af3582f7a1ea252a8fcfc05d6bbe3" style="width: 100.0%; height: 100.0%;">Brasserie Debourg 4 of 5 bubbles 27 avenue Debourg, Lyon, Rhone, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_ad3a1d958a2855b34281255d2c363bef.setContent(html_5d8af3582f7a1ea252a8fcfc05d6bbe3);
+            
+        
+
+        marker_88e1102f9284fe5247ce141223e224e0.bindPopup(popup_ad3a1d958a2855b34281255d2c363bef)
+        ;
+
+        
+    
+    
+            var marker_e0bd5a36e543ea5270c12b5e75c7705e = L.marker(
+                [45.7584065, 4.8421061],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_26f2d71345fe87c2be9df786f207c1a7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e88f2139a46e06b5243189abcb6845f = $(`<div id="html_1e88f2139a46e06b5243189abcb6845f" style="width: 100.0%; height: 100.0%;">Les Assembleurs 4.5 of 5 bubbles 12 rue Mazenod, Lyon, Rhone, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_26f2d71345fe87c2be9df786f207c1a7.setContent(html_1e88f2139a46e06b5243189abcb6845f);
+            
+        
+
+        marker_e0bd5a36e543ea5270c12b5e75c7705e.bindPopup(popup_26f2d71345fe87c2be9df786f207c1a7)
+        ;
+
+        
+    
+    
+            var marker_a29a9083399ec7dd3d3f92810b9a951d = L.marker(
+                [45.7318336, 4.8300277],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_1bc01d5b72af91cc514a8ace737d46f2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b8b02f5a1c3934fe54b156a24b792be7 = $(`<div id="html_b8b02f5a1c3934fe54b156a24b792be7" style="width: 100.0%; height: 100.0%;">Restaurante Le Vega 3.5 of 5 bubbles Immeuble Le Pelvoux, Macot-la-Plagne, Aime, Savoie, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_1bc01d5b72af91cc514a8ace737d46f2.setContent(html_b8b02f5a1c3934fe54b156a24b792be7);
+            
+        
+
+        marker_a29a9083399ec7dd3d3f92810b9a951d.bindPopup(popup_1bc01d5b72af91cc514a8ace737d46f2)
+        ;
+
+        
+    
+    
+            var marker_682a97daa756288d027e54c8928d3ace = L.marker(
+                [45.7661807, 4.8278596],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_935dd789346ad71b57447af2d998e562 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_567b3f828475f49c26426612a5ee0353 = $(`<div id="html_567b3f828475f49c26426612a5ee0353" style="width: 100.0%; height: 100.0%;">L'Apostrophe</div>`)[0];
+                popup_935dd789346ad71b57447af2d998e562.setContent(html_567b3f828475f49c26426612a5ee0353);
+            
+        
+
+        marker_682a97daa756288d027e54c8928d3ace.bindPopup(popup_935dd789346ad71b57447af2d998e562)
+        ;
+
+        
+    
+    
+            var marker_a401d879f69ef460d59d057d9e7b2af6 = L.marker(
+                [45.758977, 4.840036],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_9d69ffdd55b8551429352f1df437e9d9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ed428964f042ff1c8621d5a3aae69ad7 = $(`<div id="html_ed428964f042ff1c8621d5a3aae69ad7" style="width: 100.0%; height: 100.0%;">La Marquise 2.5 of 5 bubbles 20 quai Victor Augagneur, Lyon, Rhone, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_9d69ffdd55b8551429352f1df437e9d9.setContent(html_ed428964f042ff1c8621d5a3aae69ad7);
+            
+        
+
+        marker_a401d879f69ef460d59d057d9e7b2af6.bindPopup(popup_9d69ffdd55b8551429352f1df437e9d9)
+        ;
+
+        
+    
+    
+            var marker_1fb8b467cee41bcffac4a73bbebc125f = L.marker(
+                [45.7627905, 4.840564],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_8a4f70aa967924573de9990a10466885 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_03d3a5adf4b096a0cad11d36534ed4e1 = $(`<div id="html_03d3a5adf4b096a0cad11d36534ed4e1" style="width: 100.0%; height: 100.0%;">Volle Petrol 4.5 of 5 bubbles 2 quai Victor Augagneur, Lyon, Rhone, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_8a4f70aa967924573de9990a10466885.setContent(html_03d3a5adf4b096a0cad11d36534ed4e1);
+            
+        
+
+        marker_1fb8b467cee41bcffac4a73bbebc125f.bindPopup(popup_8a4f70aa967924573de9990a10466885)
+        ;
+
+        
+    
+    
+            var marker_e431e8ccc69e9bd57a739cc80b98515a = L.marker(
+                [45.7387676, 4.8146175],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_6b367663849940fcb1dd6dfba4185f8c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5dda2e17d2a1aae33fecb2d31879f3bb = $(`<div id="html_5dda2e17d2a1aae33fecb2d31879f3bb" style="width: 100.0%; height: 100.0%;">Selcius</div>`)[0];
+                popup_6b367663849940fcb1dd6dfba4185f8c.setContent(html_5dda2e17d2a1aae33fecb2d31879f3bb);
+            
+        
+
+        marker_e431e8ccc69e9bd57a739cc80b98515a.bindPopup(popup_6b367663849940fcb1dd6dfba4185f8c)
+        ;
+
+        
+    
+    
+            var marker_aab3eeca84f67a0ecffff167b387d631 = L.marker(
+                [45.7533427, 4.8918774],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_ec6801a76751813e97d5852d2a0c939e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1828b65a20126bd192cdb17bef2b948f = $(`<div id="html_1828b65a20126bd192cdb17bef2b948f" style="width: 100.0%; height: 100.0%;">Brasserie L'Ouest 4 of 5 bubbles 1 quai du Commerce, Lyon, Rhone, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_ec6801a76751813e97d5852d2a0c939e.setContent(html_1828b65a20126bd192cdb17bef2b948f);
+            
+        
+
+        marker_aab3eeca84f67a0ecffff167b387d631.bindPopup(popup_ec6801a76751813e97d5852d2a0c939e)
+        ;
+
+        
+    
+    
+            var marker_26faf641628179ddd137942fcd84962f = L.marker(
+                [45.769638, 4.8251857],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_a30cac481183163a083b87ba603fed1e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0c6474ecf4b128b19c0a4b99782b6d1e = $(`<div id="html_0c6474ecf4b128b19c0a4b99782b6d1e" style="width: 100.0%; height: 100.0%;">Apartment Corniche 4.5 of 5 bubbles Morzine, France</div>`)[0];
+                popup_a30cac481183163a083b87ba603fed1e.setContent(html_0c6474ecf4b128b19c0a4b99782b6d1e);
+            
+        
+
+        marker_26faf641628179ddd137942fcd84962f.bindPopup(popup_a30cac481183163a083b87ba603fed1e)
+        ;
+
+        
+    
+    
+            var marker_a61f0693f681edf2c27ed9df7b559264 = L.marker(
+                [45.7529652, 4.8546529],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_6957b6cb77abc0292ebc0739fd36240a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8fe40bc68aa46142a7799de206741ec0 = $(`<div id="html_8fe40bc68aa46142a7799de206741ec0" style="width: 100.0%; height: 100.0%;">Le Grand Cafe Des Negociants 3.5 of 5 bubbles 1 Place Francisque Regaud, Lyon, Rhone, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_6957b6cb77abc0292ebc0739fd36240a.setContent(html_8fe40bc68aa46142a7799de206741ec0);
+            
+        
+
+        marker_a61f0693f681edf2c27ed9df7b559264.bindPopup(popup_6957b6cb77abc0292ebc0739fd36240a)
+        ;
+
+        
+    
+    
+            var marker_6bc45f0481d3984ede01c403dc7f55e0 = L.marker(
+                [45.7525774, 4.869859],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_6736517d3521d710ff7a80c9e383aa29 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9c35aa400e72e604af61aef8a922ffff = $(`<div id="html_9c35aa400e72e604af61aef8a922ffff" style="width: 100.0%; height: 100.0%;">Divine Cafe 4 of 5 bubbles 46 avenue Lacassagne, Lyon, Rhone, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_6736517d3521d710ff7a80c9e383aa29.setContent(html_9c35aa400e72e604af61aef8a922ffff);
+            
+        
+
+        marker_6bc45f0481d3984ede01c403dc7f55e0.bindPopup(popup_6736517d3521d710ff7a80c9e383aa29)
+        ;
+
+        
+    
+    
+            var marker_e73ada9e5281038b5b85e561096f2044 = L.marker(
+                [45.7275064, 4.8836954],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_5aa397c5e3cf4368adc38641b8207f26 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5edcfd391368e62539da807aa84d9c0e = $(`<div id="html_5edcfd391368e62539da807aa84d9c0e" style="width: 100.0%; height: 100.0%;">Au Petit Bouchon Chez Georges 4.5 of 5 bubbles 8 rue du Garet, Lyon, Rhone, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_5aa397c5e3cf4368adc38641b8207f26.setContent(html_5edcfd391368e62539da807aa84d9c0e);
+            
+        
+
+        marker_e73ada9e5281038b5b85e561096f2044.bindPopup(popup_5aa397c5e3cf4368adc38641b8207f26)
+        ;
+
+        
+    
+    
+            var marker_a43484179d755f408e61f2bef8bfe3f7 = L.marker(
+                [45.7641317, 4.8270948],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_370936edc2776b213ec21263d2101026 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_72e5793607917c49dc31881aae00a714 = $(`<div id="html_72e5793607917c49dc31881aae00a714" style="width: 100.0%; height: 100.0%;">Cafe Gadagne 3.5 of 5 bubbles 5 Place du petit College, Lyon, Rhone, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_370936edc2776b213ec21263d2101026.setContent(html_72e5793607917c49dc31881aae00a714);
+            
+        
+
+        marker_a43484179d755f408e61f2bef8bfe3f7.bindPopup(popup_370936edc2776b213ec21263d2101026)
+        ;
+
+        
+    
+    
+            var marker_56c1c048447e1bc7a7a549fed2f356cc = L.marker(
+                [45.7504269, 4.8465891],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_8e1ab588ea0a45ab198178efaab64560 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4f334a40f3b95215ec33ee11eb90bc29 = $(`<div id="html_4f334a40f3b95215ec33ee11eb90bc29" style="width: 100.0%; height: 100.0%;">L'atelier des canulars</div>`)[0];
+                popup_8e1ab588ea0a45ab198178efaab64560.setContent(html_4f334a40f3b95215ec33ee11eb90bc29);
+            
+        
+
+        marker_56c1c048447e1bc7a7a549fed2f356cc.bindPopup(popup_8e1ab588ea0a45ab198178efaab64560)
+        ;
+
+        
+    
+    
+            var marker_dae0b7909179aad1be7d9910819eab90 = L.marker(
+                [45.7699213, 4.8032844],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_147f6195f5ab692e41415ba71ee9f792 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_01d783dcbdf8896a2c2a83480ce5658f = $(`<div id="html_01d783dcbdf8896a2c2a83480ce5658f" style="width: 100.0%; height: 100.0%;">Delta Evasion 4.5 of 5 bubbles route de la Plaine, Doussard, Haute-Savoie, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_147f6195f5ab692e41415ba71ee9f792.setContent(html_01d783dcbdf8896a2c2a83480ce5658f);
+            
+        
+
+        marker_dae0b7909179aad1be7d9910819eab90.bindPopup(popup_147f6195f5ab692e41415ba71ee9f792)
+        ;
+
+        
+    
+    
+            var marker_4fb890226eb22f37a35f2585d2f58615 = L.marker(
+                [45.7655291, 4.8276435],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_561b73ea8804dac9c9c57ba6ed60f977 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7732beebfc6318ac5214f062b6f082a8 = $(`<div id="html_7732beebfc6318ac5214f062b6f082a8" style="width: 100.0%; height: 100.0%;">Betty's Bar 4.5 of 5 bubbles 4 rue Mourguet, Lyon, Rhone, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_561b73ea8804dac9c9c57ba6ed60f977.setContent(html_7732beebfc6318ac5214f062b6f082a8);
+            
+        
+
+        marker_4fb890226eb22f37a35f2585d2f58615.bindPopup(popup_561b73ea8804dac9c9c57ba6ed60f977)
+        ;
+
+        
+    
+    
+            var marker_0d554852cefff866c2fd3cd4d023cabd = L.marker(
+                [45.7680588, 4.8008057],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_ee716fa7c5066421056a780fd7238f35 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d4023be999c2299e090929673f3f23bf = $(`<div id="html_d4023be999c2299e090929673f3f23bf" style="width: 100.0%; height: 100.0%;">Nakamal</div>`)[0];
+                popup_ee716fa7c5066421056a780fd7238f35.setContent(html_d4023be999c2299e090929673f3f23bf);
+            
+        
+
+        marker_0d554852cefff866c2fd3cd4d023cabd.bindPopup(popup_ee716fa7c5066421056a780fd7238f35)
+        ;
+
+        
+    
+    
+            var marker_b7c33aeb24464bc1a94b7a1dfc1adfce = L.marker(
+                [45.7677776, 4.8332585],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_f4b1470882579b887e9a1747166be759 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_40cf9c0978dd1e0e2532c8382909fad3 = $(`<div id="html_40cf9c0978dd1e0e2532c8382909fad3" style="width: 100.0%; height: 100.0%;">Crazy Dog 4 of 5 bubbles 7 Place des Terreaux, Lyon, Rhone, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_f4b1470882579b887e9a1747166be759.setContent(html_40cf9c0978dd1e0e2532c8382909fad3);
+            
+        
+
+        marker_b7c33aeb24464bc1a94b7a1dfc1adfce.bindPopup(popup_f4b1470882579b887e9a1747166be759)
+        ;
+
+        
+    
+    
+            var marker_c991b5061f224125e555c47098321999 = L.marker(
+                [45.7548921, 4.8445471],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_1a65aa0271ff93a0598110ed22a6d7b4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_61aa2fc734b64a89a14a83a8c8012b4e = $(`<div id="html_61aa2fc734b64a89a14a83a8c8012b4e" style="width: 100.0%; height: 100.0%;">de l'autre cote du pont 4 of 5 bubbles 25 cours Gambetta, Lyon, Rhone, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_1a65aa0271ff93a0598110ed22a6d7b4.setContent(html_61aa2fc734b64a89a14a83a8c8012b4e);
+            
+        
+
+        marker_c991b5061f224125e555c47098321999.bindPopup(popup_1a65aa0271ff93a0598110ed22a6d7b4)
+        ;
+
+        
+    
+    
+            var marker_5f67fa606a38129797aa0e4254ac79e8 = L.marker(
+                [45.751274, 4.8449204],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_61ec9403e1e31ae5dbab79ce6e93a77b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8a4144db036dbbdd87ae23a9efb2a0d8 = $(`<div id="html_8a4144db036dbbdd87ae23a9efb2a0d8" style="width: 100.0%; height: 100.0%;">L'Atenium</div>`)[0];
+                popup_61ec9403e1e31ae5dbab79ce6e93a77b.setContent(html_8a4144db036dbbdd87ae23a9efb2a0d8);
+            
+        
+
+        marker_5f67fa606a38129797aa0e4254ac79e8.bindPopup(popup_61ec9403e1e31ae5dbab79ce6e93a77b)
+        ;
+
+        
+    
+    
+            var marker_2fb026a1a5878cabbba2f5ada5039dfb = L.marker(
+                [45.778074, 4.8346675],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_3b0dc10dc572efd236dab2bce7572872 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_44cd350efdaa5585cad93bd168e338de = $(`<div id="html_44cd350efdaa5585cad93bd168e338de" style="width: 100.0%; height: 100.0%;">Le Cafe de la Soie 4 of 5 bubbles 5 Place Marcel Bertone, Lyon, Rhone, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_3b0dc10dc572efd236dab2bce7572872.setContent(html_44cd350efdaa5585cad93bd168e338de);
+            
+        
+
+        marker_2fb026a1a5878cabbba2f5ada5039dfb.bindPopup(popup_3b0dc10dc572efd236dab2bce7572872)
+        ;
+
+        
+    
+    
+            var marker_ec582bb1cf073b723bf56b8d38d25298 = L.marker(
+                [45.7535968, 4.830439],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_0c68e780a9df06d663f420709656155e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_84d73194f8b3861185683f2ffb7cabef = $(`<div id="html_84d73194f8b3861185683f2ffb7cabef" style="width: 100.0%; height: 100.0%;">Cafe des Antiquaires 3 of 5 bubbles 40 rue Auguste Comte, Lyon, Rhone, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_0c68e780a9df06d663f420709656155e.setContent(html_84d73194f8b3861185683f2ffb7cabef);
+            
+        
+
+        marker_ec582bb1cf073b723bf56b8d38d25298.bindPopup(popup_0c68e780a9df06d663f420709656155e)
+        ;
+
+        
+    
+    
+            var marker_7bc8fe42e94c200990ff6bf84d4d5c09 = L.marker(
+                [45.7543641, 4.8306558],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_02bbae4a98d171db78a69d1db056db8d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_41074ca2ea297159ecfe0b7f53d14eac = $(`<div id="html_41074ca2ea297159ecfe0b7f53d14eac" style="width: 100.0%; height: 100.0%;">Bar La Linotte 5 of 5 bubbles 26 rue Sainte Helene, Lyon, Rhone, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_02bbae4a98d171db78a69d1db056db8d.setContent(html_41074ca2ea297159ecfe0b7f53d14eac);
+            
+        
+
+        marker_7bc8fe42e94c200990ff6bf84d4d5c09.bindPopup(popup_02bbae4a98d171db78a69d1db056db8d)
+        ;
+
+        
+    
+    
+            var marker_2bdf2343f1a3866a065f49f0dee43600 = L.marker(
+                [45.7793897, 4.8344802],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_8d1d8d36c7afb1ffb1c1090f84c7d782 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f2ec163ac2a17eae2a16f3e6f59847fb = $(`<div id="html_f2ec163ac2a17eae2a16f3e6f59847fb" style="width: 100.0%; height: 100.0%;">Le Petit Coin 4.5 of 5 bubbles 18 rue Pailleron, Lyon, Rhone, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_8d1d8d36c7afb1ffb1c1090f84c7d782.setContent(html_f2ec163ac2a17eae2a16f3e6f59847fb);
+            
+        
+
+        marker_2bdf2343f1a3866a065f49f0dee43600.bindPopup(popup_8d1d8d36c7afb1ffb1c1090f84c7d782)
+        ;
+
+        
+    
+    
+            var marker_dc1aa93e607d1fed128159a5af77a6fb = L.marker(
+                [45.7644303, 4.832536],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_325a47c5895f178b775b287d247a610b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d9d9ae8892a19c330f6e3b2e0dfc0fcc = $(`<div id="html_d9d9ae8892a19c330f6e3b2e0dfc0fcc" style="width: 100.0%; height: 100.0%;">Le Chabada Cafe 4.5 of 5 bubbles 3 rue Merciere, Lyon, Rhone, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_325a47c5895f178b775b287d247a610b.setContent(html_d9d9ae8892a19c330f6e3b2e0dfc0fcc);
+            
+        
+
+        marker_dc1aa93e607d1fed128159a5af77a6fb.bindPopup(popup_325a47c5895f178b775b287d247a610b)
+        ;
+
+        
+    
+    
+            var marker_86415e49614b7323dcf06ad8549405e6 = L.marker(
+                [45.7660636, 4.8317048],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_3f99c92f372b2ea9901947a36ba10ac6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1cc56090200ed053fd0623d2f7cb3ab5 = $(`<div id="html_1cc56090200ed053fd0623d2f7cb3ab5" style="width: 100.0%; height: 100.0%;">Broc'Bar</div>`)[0];
+                popup_3f99c92f372b2ea9901947a36ba10ac6.setContent(html_1cc56090200ed053fd0623d2f7cb3ab5);
+            
+        
+
+        marker_86415e49614b7323dcf06ad8549405e6.bindPopup(popup_3f99c92f372b2ea9901947a36ba10ac6)
+        ;
+
+        
+    
+    
+            var marker_b3d37d92445b3bc93b35370cb69f1576 = L.marker(
+                [45.7646686, 4.8346335],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_5013af1df5d21091cd977e79dbefe438 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1118c96e13ca6485d9df3516a9838e69 = $(`<div id="html_1118c96e13ca6485d9df3516a9838e69" style="width: 100.0%; height: 100.0%;">James Joyce Pub 4 of 5 bubbles Rue St Jean, Lyon, Rhone, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_5013af1df5d21091cd977e79dbefe438.setContent(html_1118c96e13ca6485d9df3516a9838e69);
+            
+        
+
+        marker_b3d37d92445b3bc93b35370cb69f1576.bindPopup(popup_5013af1df5d21091cd977e79dbefe438)
+        ;
+
+        
+    
+    
+            var marker_eea4c975fc3c656ed9ed55e355a0d720 = L.marker(
+                [45.7683105, 4.8290173],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_78062456d69f03fa42138f0287c8dfa1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0f8e27da33d0c8ed0ac8c78db29932ba = $(`<div id="html_0f8e27da33d0c8ed0ac8c78db29932ba" style="width: 100.0%; height: 100.0%;">Soda Bar</div>`)[0];
+                popup_78062456d69f03fa42138f0287c8dfa1.setContent(html_0f8e27da33d0c8ed0ac8c78db29932ba);
+            
+        
+
+        marker_eea4c975fc3c656ed9ed55e355a0d720.bindPopup(popup_78062456d69f03fa42138f0287c8dfa1)
+        ;
+
+        
+    
+    
+            var marker_a1496d60ba5207ae1b568dfbd8723eb4 = L.marker(
+                [45.767922, 4.8306351],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_f3476bcd568534c0a0d92a35f05385c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_681342906f4f2a66db276ab1fc6e50d3 = $(`<div id="html_681342906f4f2a66db276ab1fc6e50d3" style="width: 100.0%; height: 100.0%;">L'Antiquaire 4.5 of 5 bubbles 20 rue Hippolyte Flandrin, Lyon, Rhone, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_f3476bcd568534c0a0d92a35f05385c9.setContent(html_681342906f4f2a66db276ab1fc6e50d3);
+            
+        
+
+        marker_a1496d60ba5207ae1b568dfbd8723eb4.bindPopup(popup_f3476bcd568534c0a0d92a35f05385c9)
+        ;
+
+        
+    
+    
+            var marker_cfddab88d6ed47bf3c6b9bec0125a82f = L.marker(
+                [45.7649541, 4.8434918],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_eed0c86e8c326bc047d1d71163090e6d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dea823036cde5f51f229af632fe16e8d = $(`<div id="html_dea823036cde5f51f229af632fe16e8d" style="width: 100.0%; height: 100.0%;">Un excellent moment . Cuisine rafinée et intéressante . Accueil chaleureux. Had a...    </div>`)[0];
+                popup_eed0c86e8c326bc047d1d71163090e6d.setContent(html_dea823036cde5f51f229af632fe16e8d);
+            
+        
+
+        marker_cfddab88d6ed47bf3c6b9bec0125a82f.bindPopup(popup_eed0c86e8c326bc047d1d71163090e6d)
+        ;
+
+        
+    
+    
+            var marker_c1dd08cd2cdbcd49903860dd70bedce0 = L.marker(
+                [45.7750631, 4.8052187],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_a1249750f9016dab7869e816c23685ac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7bbe663e899a9edb85bda5f42ddfa4f8 = $(`<div id="html_7bbe663e899a9edb85bda5f42ddfa4f8" style="width: 100.0%; height: 100.0%;">Le Grand Cafe Des Negociants 3.5 of 5 bubbles 1 Place Francisque Regaud, Lyon, Rhone, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_a1249750f9016dab7869e816c23685ac.setContent(html_7bbe663e899a9edb85bda5f42ddfa4f8);
+            
+        
+
+        marker_c1dd08cd2cdbcd49903860dd70bedce0.bindPopup(popup_a1249750f9016dab7869e816c23685ac)
+        ;
+
+        
+    
+    
+            var marker_d4da91a63fa35ec1b0c8b7acc7bc6f3a = L.marker(
+                [45.7766275, 4.83501],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_0cd34c3a35172495275f00b674bab8eb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_51f7e36f8ec7273cf47a8796cb5e247d = $(`<div id="html_51f7e36f8ec7273cf47a8796cb5e247d" style="width: 100.0%; height: 100.0%;">La Voguette 4 of 5 bubbles 4 T rue de Belfort, Lyon, Rhone, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_0cd34c3a35172495275f00b674bab8eb.setContent(html_51f7e36f8ec7273cf47a8796cb5e247d);
+            
+        
+
+        marker_d4da91a63fa35ec1b0c8b7acc7bc6f3a.bindPopup(popup_0cd34c3a35172495275f00b674bab8eb)
+        ;
+
+        
+    
+    
+            var marker_85202a1e2c96f929911a1eb36ccd1b24 = L.marker(
+                [45.7768298, 4.8334846],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_640be606c2e6b29a6e111670a871300b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_282ea12aad64e347870917cb9bd2f09d = $(`<div id="html_282ea12aad64e347870917cb9bd2f09d" style="width: 100.0%; height: 100.0%;">Le Bistrot Fait Sa Broc 4.5 of 5 bubbles 1-3 rue Dumenge, Lyon, Rhone, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_640be606c2e6b29a6e111670a871300b.setContent(html_282ea12aad64e347870917cb9bd2f09d);
+            
+        
+
+        marker_85202a1e2c96f929911a1eb36ccd1b24.bindPopup(popup_640be606c2e6b29a6e111670a871300b)
+        ;
+
+        
+    
+    
+            var marker_735f29a09122f1f4f5d3b343776eea76 = L.marker(
+                [45.7530545, 4.8700406],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_50547f78aa0aa0061fc38c66cb6a8b42 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9c0171b752b346e6423a4e1770885832 = $(`<div id="html_9c0171b752b346e6423a4e1770885832" style="width: 100.0%; height: 100.0%;">Le Petit Carron 4.5 of 5 bubbles 48 avenue Felix Faure, Lyon, Rhone, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_50547f78aa0aa0061fc38c66cb6a8b42.setContent(html_9c0171b752b346e6423a4e1770885832);
+            
+        
+
+        marker_735f29a09122f1f4f5d3b343776eea76.bindPopup(popup_50547f78aa0aa0061fc38c66cb6a8b42)
+        ;
+
+        
+    
+    
+            var marker_b4e32824514ad2cdc604fc12122e6350 = L.marker(
+                [45.7313454, 4.8593663],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_91758dbfec75a74a88813a00b1f2b58f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_de12d49113b398f676a4aa0dbed21464 = $(`<div id="html_de12d49113b398f676a4aa0dbed21464" style="width: 100.0%; height: 100.0%;">La Part-Dieu Shopping Center 3.5 of 5 bubbles 17 rue du Docteur Bouchut, Lyon, Rhone, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_91758dbfec75a74a88813a00b1f2b58f.setContent(html_de12d49113b398f676a4aa0dbed21464);
+            
+        
+
+        marker_b4e32824514ad2cdc604fc12122e6350.bindPopup(popup_91758dbfec75a74a88813a00b1f2b58f)
+        ;
+
+        
+    
+    
+            var marker_81b4fa89c67f982b5a18dc6c36bd8881 = L.marker(
+                [45.754752, 4.8431398],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_52d668917e5152326a375081528838bf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0f466571e64d195f0057f0beea1c84d5 = $(`<div id="html_0f466571e64d195f0057f0beea1c84d5" style="width: 100.0%; height: 100.0%;">La Faute aux Ours 4 of 5 bubbles 4 Grande rue de la Guillotiere, Lyon, Rhone, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_52d668917e5152326a375081528838bf.setContent(html_0f466571e64d195f0057f0beea1c84d5);
+            
+        
+
+        marker_81b4fa89c67f982b5a18dc6c36bd8881.bindPopup(popup_52d668917e5152326a375081528838bf)
+        ;
+
+        
+    
+    
+            var marker_0771c8ef824b491290541992177fbc25 = L.marker(
+                [45.7606057, 4.8402604],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_2991a709af514480d46d4f23624d42da = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b98d9dbb3771e65cdba9d055caf3384a = $(`<div id="html_b98d9dbb3771e65cdba9d055caf3384a" style="width: 100.0%; height: 100.0%;">La Passagere 3.5 of 5 bubbles 21 quai Victor Augagneur, Lyon, Rhone, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_2991a709af514480d46d4f23624d42da.setContent(html_b98d9dbb3771e65cdba9d055caf3384a);
+            
+        
+
+        marker_0771c8ef824b491290541992177fbc25.bindPopup(popup_2991a709af514480d46d4f23624d42da)
+        ;
+
+        
+    
+    
+            var marker_0192a9754c28ba24710f63a76559f435 = L.marker(
+                [45.7610785, 4.8403229],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_da1516ea0502aa923d8056824765d954 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_48178ddf123605e68d6ba15eef46eeed = $(`<div id="html_48178ddf123605e68d6ba15eef46eeed" style="width: 100.0%; height: 100.0%;">Peniche le Sirius 3 of 5 bubbles 4 quai Victor Augagneur, Lyon, Rhone, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_da1516ea0502aa923d8056824765d954.setContent(html_48178ddf123605e68d6ba15eef46eeed);
+            
+        
+
+        marker_0192a9754c28ba24710f63a76559f435.bindPopup(popup_da1516ea0502aa923d8056824765d954)
+        ;
+
+        
+    
+    
+            var marker_56cc9267d16d335e97c56da01ff8dc28 = L.marker(
+                [45.7541332, 4.8394258],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_972c9618ae031d89073f72f01104b877 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_59ce4358cf3e1d883a44d1b57544a9b6 = $(`<div id="html_59ce4358cf3e1d883a44d1b57544a9b6" style="width: 100.0%; height: 100.0%;">Aux Bons Sauvages 4.5 of 5 bubbles 16 Quai des Etroits, Lyon, Rhone, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_972c9618ae031d89073f72f01104b877.setContent(html_59ce4358cf3e1d883a44d1b57544a9b6);
+            
+        
+
+        marker_56cc9267d16d335e97c56da01ff8dc28.bindPopup(popup_972c9618ae031d89073f72f01104b877)
+        ;
+
+        
+    
+    
+            var marker_510b26db2842974a10f70241155b0ce9 = L.marker(
+                [45.7556397, 4.8425979],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_a2c2dd7e66128c4b248a8dd6759ff847 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_31ea4bb7fc6560f322b0b981595363d3 = $(`<div id="html_31ea4bb7fc6560f322b0b981595363d3" style="width: 100.0%; height: 100.0%;">Hard Rock Cafe Lyon 4 of 5 bubbles 1 Rue President Carnot, Lyon, Rhone, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_a2c2dd7e66128c4b248a8dd6759ff847.setContent(html_31ea4bb7fc6560f322b0b981595363d3);
+            
+        
+
+        marker_510b26db2842974a10f70241155b0ce9.bindPopup(popup_a2c2dd7e66128c4b248a8dd6759ff847)
+        ;
+
+        
+    
+    
+            var marker_dc800a46509eb688765b8233c39144d7 = L.marker(
+                [45.7429028, 4.8165531],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_14cb655eb9e862ed204acf6a628c4b6b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_763b3cfbb4ce0801ec54cabe24bada0b = $(`<div id="html_763b3cfbb4ce0801ec54cabe24bada0b" style="width: 100.0%; height: 100.0%;">Le St Trop 3.5 of 5 bubbles 5 quai Antoine Riboud, Lyon, Rhone, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_14cb655eb9e862ed204acf6a628c4b6b.setContent(html_763b3cfbb4ce0801ec54cabe24bada0b);
+            
+        
+
+        marker_dc800a46509eb688765b8233c39144d7.bindPopup(popup_14cb655eb9e862ed204acf6a628c4b6b)
+        ;
+
+        
+    
+    
+            var marker_bc4b15d771e4c89387fdb2d4efdb9493 = L.marker(
+                [45.7664433, 4.8273998],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_5277001f905e22393da770aa151a9b72 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_220f7a5a5b28e611ee9573a411cabaf8 = $(`<div id="html_220f7a5a5b28e611ee9573a411cabaf8" style="width: 100.0%; height: 100.0%;">Cafe Theatre la Mi Graine 4.5 of 5 bubbles 11 Place Saint Paul, Lyon, Rhone, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_5277001f905e22393da770aa151a9b72.setContent(html_220f7a5a5b28e611ee9573a411cabaf8);
+            
+        
+
+        marker_bc4b15d771e4c89387fdb2d4efdb9493.bindPopup(popup_5277001f905e22393da770aa151a9b72)
+        ;
+
+        
+    
+    
+            var marker_7e07fcbf3a00ce3869cfae725ee438ae = L.marker(
+                [45.756009, 4.8415199],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_ddecce3b07d67d1e17d7a23f09c95f9e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_536e799d9732fb175dc5d612e194675f = $(`<div id="html_536e799d9732fb175dc5d612e194675f" style="width: 100.0%; height: 100.0%;">Le Gambetta 4.5 of 5 bubbles 3 cours Gambetta, Lyon, Rhone, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_ddecce3b07d67d1e17d7a23f09c95f9e.setContent(html_536e799d9732fb175dc5d612e194675f);
+            
+        
+
+        marker_7e07fcbf3a00ce3869cfae725ee438ae.bindPopup(popup_ddecce3b07d67d1e17d7a23f09c95f9e)
+        ;
+
+        
+    
+    
+            var marker_3556fbddb2d0072d3417d4454a64d521 = L.marker(
+                [45.7595534, 4.8400976],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_447ff558232eefdf260e524ff1ff94fe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_61d659c120ea84d5a344a37184a74dcb = $(`<div id="html_61d659c120ea84d5a344a37184a74dcb" style="width: 100.0%; height: 100.0%;">The Boat 2.5 of 5 bubbles 21 quai Victor Augagneur, Lyon, Rhone, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_447ff558232eefdf260e524ff1ff94fe.setContent(html_61d659c120ea84d5a344a37184a74dcb);
+            
+        
+
+        marker_3556fbddb2d0072d3417d4454a64d521.bindPopup(popup_447ff558232eefdf260e524ff1ff94fe)
+        ;
+
+        
+    
+    
+            var marker_5b9e9ebbd0b83e7c3ec2d66bc2dab7cb = L.marker(
+                [45.7546058, 4.8420521],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_e28444160ff717c775c4050c2f2fef22 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_57bb4ad250bdd4a5df4b7d5058f90782 = $(`<div id="html_57bb4ad250bdd4a5df4b7d5058f90782" style="width: 100.0%; height: 100.0%;">L'Angle d'Or</div>`)[0];
+                popup_e28444160ff717c775c4050c2f2fef22.setContent(html_57bb4ad250bdd4a5df4b7d5058f90782);
+            
+        
+
+        marker_5b9e9ebbd0b83e7c3ec2d66bc2dab7cb.bindPopup(popup_e28444160ff717c775c4050c2f2fef22)
+        ;
+
+        
+    
+    
+            var marker_84a70a53fcdc6117963ef16d6f9be306 = L.marker(
+                [45.7704846, 4.8332759],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_2b57efab079a3be2400ac7841fd975c6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4813f2ac48335ffa027d0b6de8b4364b = $(`<div id="html_4813f2ac48335ffa027d0b6de8b4364b" style="width: 100.0%; height: 100.0%;">Le Bec De Jazz 3.5 of 5 bubbles 19 rue Burdeau, Lyon, Rhone, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_2b57efab079a3be2400ac7841fd975c6.setContent(html_4813f2ac48335ffa027d0b6de8b4364b);
+            
+        
+
+        marker_84a70a53fcdc6117963ef16d6f9be306.bindPopup(popup_2b57efab079a3be2400ac7841fd975c6)
+        ;
+
+        
+    
+    
+            var marker_b04377d55feba8d15f347f8c59a8a2aa = L.marker(
+                [45.7790987, 4.8051671],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_6ff69592da32607e8cf48498f42ae5b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5dca096f955b75fc1b5a26257a0959a1 = $(`<div id="html_5dca096f955b75fc1b5a26257a0959a1" style="width: 100.0%; height: 100.0%;">La Boite a Cafe 4.5 of 5 bubbles 3 rue de l Abbe Rozier, Lyon, Rhone, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_6ff69592da32607e8cf48498f42ae5b7.setContent(html_5dca096f955b75fc1b5a26257a0959a1);
+            
+        
+
+        marker_b04377d55feba8d15f347f8c59a8a2aa.bindPopup(popup_6ff69592da32607e8cf48498f42ae5b7)
+        ;
+
+        
+    
+    
+            var marker_98ee1a7da60bc18a25e4d90295bc7ef5 = L.marker(
+                [45.7537657, 4.840532],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_6edf74ca3f5860e6b580449d706753c7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0194fad3b35225494eb43d4036d9b02b = $(`<div id="html_0194fad3b35225494eb43d4036d9b02b" style="width: 100.0%; height: 100.0%;">L'Aromo</div>`)[0];
+                popup_6edf74ca3f5860e6b580449d706753c7.setContent(html_0194fad3b35225494eb43d4036d9b02b);
+            
+        
+
+        marker_98ee1a7da60bc18a25e4d90295bc7ef5.bindPopup(popup_6edf74ca3f5860e6b580449d706753c7)
+        ;
+
+        
+    
+    
+            var marker_6adc59e9c1077431d5bc87a28ddcf836 = L.marker(
+                [45.7537039, 4.8402826],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_2589af896f529e6b6cf1bd529e0947c1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2d83c7342bc017da87eb06ad5dd07b46 = $(`<div id="html_2d83c7342bc017da87eb06ad5dd07b46" style="width: 100.0%; height: 100.0%;">Bar Le Florian 4.5 of 5 bubbles 4 Place de la Baleine, Lyon, Rhone, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_2589af896f529e6b6cf1bd529e0947c1.setContent(html_2d83c7342bc017da87eb06ad5dd07b46);
+            
+        
+
+        marker_6adc59e9c1077431d5bc87a28ddcf836.bindPopup(popup_2589af896f529e6b6cf1bd529e0947c1)
+        ;
+
+        
+    
+    
+            var marker_94ccd95effaa06afd0b1c8da25a4a738 = L.marker(
+                [45.7518642, 4.8401552],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_1db12f3fb602be53c42edc2773601b0f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d67c16a00c0f80e43473c30ddc824cf8 = $(`<div id="html_d67c16a00c0f80e43473c30ddc824cf8" style="width: 100.0%; height: 100.0%;">Chalet Chatelet 5 of 5 bubbles Le Chatelet, Abondance, Portes du Soleil, Haute-Savoie, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_1db12f3fb602be53c42edc2773601b0f.setContent(html_d67c16a00c0f80e43473c30ddc824cf8);
+            
+        
+
+        marker_94ccd95effaa06afd0b1c8da25a4a738.bindPopup(popup_1db12f3fb602be53c42edc2773601b0f)
+        ;
+
+        
+    
+    
+            var marker_990ebbe2646a88df0498c337fd29d739 = L.marker(
+                [45.749447, 4.8387511],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_8fb7e0a6affe1283ad150bfa3b2f2749 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_575bce22e58f0b876f545258ab9dea94 = $(`<div id="html_575bce22e58f0b876f545258ab9dea94" style="width: 100.0%; height: 100.0%;">Palais de la Bourse de Lyon 4 of 5 bubbles Place de la Bourse, Lyon, Rhone, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_8fb7e0a6affe1283ad150bfa3b2f2749.setContent(html_575bce22e58f0b876f545258ab9dea94);
+            
+        
+
+        marker_990ebbe2646a88df0498c337fd29d739.bindPopup(popup_8fb7e0a6affe1283ad150bfa3b2f2749)
+        ;
+
+        
+    
+    
+            var marker_f9778b4174786f4b067f89555178b1d6 = L.marker(
+                [45.7469306, 4.8370236],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_48f0986ce0c6c2eb98684cf47a1c0454 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_887dcd41b6e64395bdea84506dbbb92b = $(`<div id="html_887dcd41b6e64395bdea84506dbbb92b" style="width: 100.0%; height: 100.0%;">Johnny's Kitchen 4 of 5 bubbles 48 rue Saint Georges, Lyon, Rhone, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_48f0986ce0c6c2eb98684cf47a1c0454.setContent(html_887dcd41b6e64395bdea84506dbbb92b);
+            
+        
+
+        marker_f9778b4174786f4b067f89555178b1d6.bindPopup(popup_48f0986ce0c6c2eb98684cf47a1c0454)
+        ;
+
+        
+    
+    
+            var marker_dd2a127e4af619ee02ecfc6a1c04b41e = L.marker(
+                [45.7484333, 4.854575],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_f398b6b55d35ce19cecb5df03da22e97 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f6517e8ed919fd085779d56b32878e08 = $(`<div id="html_f6517e8ed919fd085779d56b32878e08" style="width: 100.0%; height: 100.0%;">ALMA 3.5 of 5 bubbles 6 rue Henri-Blanvalet, Geneva, Switzerland</div>`)[0];
+                popup_f398b6b55d35ce19cecb5df03da22e97.setContent(html_f6517e8ed919fd085779d56b32878e08);
+            
+        
+
+        marker_dd2a127e4af619ee02ecfc6a1c04b41e.bindPopup(popup_f398b6b55d35ce19cecb5df03da22e97)
+        ;
+
+        
+    
+    
+            var marker_656c8fdcae74c03bc7b57d7ed2494773 = L.marker(
+                [45.7577692, 4.8411711],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_a393f946c836ff1519ebe53042370f33 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e312bd7ae765774b465a521e11acb37c = $(`<div id="html_e312bd7ae765774b465a521e11acb37c" style="width: 100.0%; height: 100.0%;">Malto</div>`)[0];
+                popup_a393f946c836ff1519ebe53042370f33.setContent(html_e312bd7ae765774b465a521e11acb37c);
+            
+        
+
+        marker_656c8fdcae74c03bc7b57d7ed2494773.bindPopup(popup_a393f946c836ff1519ebe53042370f33)
+        ;
+
+        
+    
+    
+            var marker_1c946234429caff7612489017b9a3dd5 = L.marker(
+                [45.748268, 4.8433461],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_bf877beb4e9cd88a1aade18121af7446 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f5b4743d249e66723cc6585c073b0f66 = $(`<div id="html_f5b4743d249e66723cc6585c073b0f66" style="width: 100.0%; height: 100.0%;">AFK Bar</div>`)[0];
+                popup_bf877beb4e9cd88a1aade18121af7446.setContent(html_f5b4743d249e66723cc6585c073b0f66);
+            
+        
+
+        marker_1c946234429caff7612489017b9a3dd5.bindPopup(popup_bf877beb4e9cd88a1aade18121af7446)
+        ;
+
+        
+    
+    
+            var marker_e51c1b871683184cd6931a19a5bd7066 = L.marker(
+                [45.7539604, 4.8428911],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_86806c67d5f0ec5c5f5eff74951ae674 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fce80ad78a37a30847a500c03f3a0703 = $(`<div id="html_fce80ad78a37a30847a500c03f3a0703" style="width: 100.0%; height: 100.0%;">Restaurant des Trois Rois 4 of 5 bubbles rue de Berne 44, Geneva, Switzerland</div>`)[0];
+                popup_86806c67d5f0ec5c5f5eff74951ae674.setContent(html_fce80ad78a37a30847a500c03f3a0703);
+            
+        
+
+        marker_e51c1b871683184cd6931a19a5bd7066.bindPopup(popup_86806c67d5f0ec5c5f5eff74951ae674)
+        ;
+
+        
+    
+    
+            var marker_c8e9e7ea0fe2afefd3b377463e74f1ce = L.marker(
+                [45.752247, 4.8440337],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_046e09b6b75d6ff2df757304dc861aa7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5db99a770b72015d25476643c0ba1756 = $(`<div id="html_5db99a770b72015d25476643c0ba1756" style="width: 100.0%; height: 100.0%;">Bar Le Florian 4.5 of 5 bubbles 4 Place de la Baleine, Lyon, Rhone, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_046e09b6b75d6ff2df757304dc861aa7.setContent(html_5db99a770b72015d25476643c0ba1756);
+            
+        
+
+        marker_c8e9e7ea0fe2afefd3b377463e74f1ce.bindPopup(popup_046e09b6b75d6ff2df757304dc861aa7)
+        ;
+
+        
+    
+    
+            var marker_ef7c7a1c2267e6dbf79bf89cec5965d8 = L.marker(
+                [45.7514305, 4.844894],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_864e4aa04dbd758d0ba19fc092227150 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8a95d99b483c300ff8c9248f5ac3b39d = $(`<div id="html_8a95d99b483c300ff8c9248f5ac3b39d" style="width: 100.0%; height: 100.0%;">Chez Michel 5 of 5 bubbles La Masure, Sainte-Foy-Tarentaise, Savoie, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_864e4aa04dbd758d0ba19fc092227150.setContent(html_8a95d99b483c300ff8c9248f5ac3b39d);
+            
+        
+
+        marker_ef7c7a1c2267e6dbf79bf89cec5965d8.bindPopup(popup_864e4aa04dbd758d0ba19fc092227150)
+        ;
+
+        
+    
+    
+            var marker_02b3b2cdad3701dabd3a72cde3e01b12 = L.marker(
+                [45.7510651, 4.8426149],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_5460ffcdb866b9514de142438d061311 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_371fccb6a45a40577c420da25c1a49df = $(`<div id="html_371fccb6a45a40577c420da25c1a49df" style="width: 100.0%; height: 100.0%;">Hotel des Artistes 4.5 of 5 bubbles 8 rue Gaspard Andre, Lyon, Rhone, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_5460ffcdb866b9514de142438d061311.setContent(html_371fccb6a45a40577c420da25c1a49df);
+            
+        
+
+        marker_02b3b2cdad3701dabd3a72cde3e01b12.bindPopup(popup_5460ffcdb866b9514de142438d061311)
+        ;
+
+        
+    
+    
+            var marker_3369c99dc6a8de9df7242f54e7b89d55 = L.marker(
+                [45.7530338, 4.8452267],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_a6d313b971b3b0004c7cde1617ef46b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b81a6591bef9cc545432b9873fbec10d = $(`<div id="html_b81a6591bef9cc545432b9873fbec10d" style="width: 100.0%; height: 100.0%;">Balek Bar</div>`)[0];
+                popup_a6d313b971b3b0004c7cde1617ef46b2.setContent(html_b81a6591bef9cc545432b9873fbec10d);
+            
+        
+
+        marker_3369c99dc6a8de9df7242f54e7b89d55.bindPopup(popup_a6d313b971b3b0004c7cde1617ef46b2)
+        ;
+
+        
+    
+    
+            var marker_f96ce66dcb9e034b49f0ac6bbc8f2488 = L.marker(
+                [45.7507462, 4.8491606],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_fde34b8eace4d533fa68f698d2572552 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_de6ce2c990fb84e2e0da25800dc5ae7b = $(`<div id="html_de6ce2c990fb84e2e0da25800dc5ae7b" style="width: 100.0%; height: 100.0%;">Lom–Pangar</div>`)[0];
+                popup_fde34b8eace4d533fa68f698d2572552.setContent(html_de6ce2c990fb84e2e0da25800dc5ae7b);
+            
+        
+
+        marker_f96ce66dcb9e034b49f0ac6bbc8f2488.bindPopup(popup_fde34b8eace4d533fa68f698d2572552)
+        ;
+
+        
+    
+    
+            var marker_e76dd8c12482a8bd1ebefec21db3a28c = L.marker(
+                [45.7533223, 4.8227646],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_1549183d8f51926c28efda6a247b9e9b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4ec8d84cf258a5373cb3435681a2b93d = $(`<div id="html_4ec8d84cf258a5373cb3435681a2b93d" style="width: 100.0%; height: 100.0%;">Baston</div>`)[0];
+                popup_1549183d8f51926c28efda6a247b9e9b.setContent(html_4ec8d84cf258a5373cb3435681a2b93d);
+            
+        
+
+        marker_e76dd8c12482a8bd1ebefec21db3a28c.bindPopup(popup_1549183d8f51926c28efda6a247b9e9b)
+        ;
+
+        
+    
+    
+            var marker_688ba3577b28e63d60e0472c28469eb4 = L.marker(
+                [45.7532946, 4.8414235],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_3e71ff4f5edd99bf9f0fdced7fbf3622 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_18b8e97660082f0bfae55b63d2948559 = $(`<div id="html_18b8e97660082f0bfae55b63d2948559" style="width: 100.0%; height: 100.0%;">Bistro Martine 4.5 of 5 bubbles 4 rue d Enghien, Lyon, Rhone, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_3e71ff4f5edd99bf9f0fdced7fbf3622.setContent(html_18b8e97660082f0bfae55b63d2948559);
+            
+        
+
+        marker_688ba3577b28e63d60e0472c28469eb4.bindPopup(popup_3e71ff4f5edd99bf9f0fdced7fbf3622)
+        ;
+
+        
+    
+    
+            var marker_39612ab43d2496e3adc5fc9c01b67e30 = L.marker(
+                [45.7538624, 4.8420421],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_b8a8153f3144058678d7540eee74e428 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_40c4ba6aae3dd5e451f38cc78f349181 = $(`<div id="html_40c4ba6aae3dd5e451f38cc78f349181" style="width: 100.0%; height: 100.0%;">Bar Le Florian 4.5 of 5 bubbles 4 Place de la Baleine, Lyon, Rhone, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_b8a8153f3144058678d7540eee74e428.setContent(html_40c4ba6aae3dd5e451f38cc78f349181);
+            
+        
+
+        marker_39612ab43d2496e3adc5fc9c01b67e30.bindPopup(popup_b8a8153f3144058678d7540eee74e428)
+        ;
+
+        
+    
+    
+            var marker_1e7d052fbd1ba73f091e1b82df16bbcb = L.marker(
+                [45.7686593, 4.8356734],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_3ac5157fb75c25d110c2227040d06044 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2110a368bc5e4944735c2c552c66e437 = $(`<div id="html_2110a368bc5e4944735c2c552c66e437" style="width: 100.0%; height: 100.0%;">Barberousse 3.5 of 5 bubbles 18 rue Terraille, Lyon, Rhone, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_3ac5157fb75c25d110c2227040d06044.setContent(html_2110a368bc5e4944735c2c552c66e437);
+            
+        
+
+        marker_1e7d052fbd1ba73f091e1b82df16bbcb.bindPopup(popup_3ac5157fb75c25d110c2227040d06044)
+        ;
+
+        
+    
+    
+            var marker_2c970492fb2e389c619936fb4354e5b3 = L.marker(
+                [45.7549647, 4.8450213],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_23aea416426f767a26d92fd3c9f61b6b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ef08616e3d12d1f6ddfefb2194646753 = $(`<div id="html_ef08616e3d12d1f6ddfefb2194646753" style="width: 100.0%; height: 100.0%;">Bistrot Abel 4.5 of 5 bubbles 47 rue de la Bourse, Lyon, Rhone, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_23aea416426f767a26d92fd3c9f61b6b.setContent(html_ef08616e3d12d1f6ddfefb2194646753);
+            
+        
+
+        marker_2c970492fb2e389c619936fb4354e5b3.bindPopup(popup_23aea416426f767a26d92fd3c9f61b6b)
+        ;
+
+        
+    
+    
+            var marker_b460724027b00ab2fdfb7bbcbd6f54e6 = L.marker(
+                [45.7689426, 4.8324435],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_a4732c18a119621c014755dcfdc95187 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7e220923f0f6283fc6a1aba92c72f3ce = $(`<div id="html_7e220923f0f6283fc6a1aba92c72f3ce" style="width: 100.0%; height: 100.0%;">Auberge de la madone 4.5 of 5 bubbles la Madone, Fleurie, Rhone, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_a4732c18a119621c014755dcfdc95187.setContent(html_7e220923f0f6283fc6a1aba92c72f3ce);
+            
+        
+
+        marker_b460724027b00ab2fdfb7bbcbd6f54e6.bindPopup(popup_a4732c18a119621c014755dcfdc95187)
+        ;
+
+        
+    
+    
+            var marker_cd3476e9cd0c7a15018e63acf2480d40 = L.marker(
+                [45.7645798, 4.8407664],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_4556c52ffbe5a6a2e9d98ceef6922f73 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0b2673a2d3eed77f87ce05f32ad81156 = $(`<div id="html_0b2673a2d3eed77f87ce05f32ad81156" style="width: 100.0%; height: 100.0%;">La Barge 3.5 of 5 bubbles Quai General Sarrail, Lyon, Rhone, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_4556c52ffbe5a6a2e9d98ceef6922f73.setContent(html_0b2673a2d3eed77f87ce05f32ad81156);
+            
+        
+
+        marker_cd3476e9cd0c7a15018e63acf2480d40.bindPopup(popup_4556c52ffbe5a6a2e9d98ceef6922f73)
+        ;
+
+        
+    
+    
+            var marker_588c6f3133190c5c1e50181797f4160a = L.marker(
+                [45.7683124, 4.8291032],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_f9c935b1deeb79ab136f7a1730c727a1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e0f72ce4aa42c42d4f17c8ee5ad21458 = $(`<div id="html_e0f72ce4aa42c42d4f17c8ee5ad21458" style="width: 100.0%; height: 100.0%;">La Bouteillerie 5 of 5 bubbles 9 rue de la Martiniere, Lyon, Rhone, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_f9c935b1deeb79ab136f7a1730c727a1.setContent(html_e0f72ce4aa42c42d4f17c8ee5ad21458);
+            
+        
+
+        marker_588c6f3133190c5c1e50181797f4160a.bindPopup(popup_f9c935b1deeb79ab136f7a1730c727a1)
+        ;
+
+        
+    
+    
+            var marker_ab5f82e51de78d5eff5fa76b36d2fbe9 = L.marker(
+                [45.768323, 4.8293006],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_efb4a5db1f35cee210c5b163797b3f58 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0584cf3325178580ab779c632539442c = $(`<div id="html_0584cf3325178580ab779c632539442c" style="width: 100.0%; height: 100.0%;">Le Bistro</div>`)[0];
+                popup_efb4a5db1f35cee210c5b163797b3f58.setContent(html_0584cf3325178580ab779c632539442c);
+            
+        
+
+        marker_ab5f82e51de78d5eff5fa76b36d2fbe9.bindPopup(popup_efb4a5db1f35cee210c5b163797b3f58)
+        ;
+
+        
+    
+    
+            var marker_91fa6382871fb0b1dfdf22520800fe1a = L.marker(
+                [45.7536108, 4.8326653],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_de653a2bac58e9c7247a3b17f48cde55 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_757059bc55a1ef924b3b287b4de6287c = $(`<div id="html_757059bc55a1ef924b3b287b4de6287c" style="width: 100.0%; height: 100.0%;">Au Bon Cru 4 of 5 bubbles 8 Place Gailleton, Lyon, Rhone, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_de653a2bac58e9c7247a3b17f48cde55.setContent(html_757059bc55a1ef924b3b287b4de6287c);
+            
+        
+
+        marker_91fa6382871fb0b1dfdf22520800fe1a.bindPopup(popup_de653a2bac58e9c7247a3b17f48cde55)
+        ;
+
+        
+    
+    
+            var marker_c15db7fc3b5fbfb72b2ef2dcd8885473 = L.marker(
+                [45.7545637, 4.8267318],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_02ee2ac17ef97be8ed2ed254b92a4cdb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_15eea10811ea6da91f78844d82280b6c = $(`<div id="html_15eea10811ea6da91f78844d82280b6c" style="width: 100.0%; height: 100.0%;">Hard Rock Cafe Lyon 4 of 5 bubbles 1 Rue President Carnot, Lyon, Rhone, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_02ee2ac17ef97be8ed2ed254b92a4cdb.setContent(html_15eea10811ea6da91f78844d82280b6c);
+            
+        
+
+        marker_c15db7fc3b5fbfb72b2ef2dcd8885473.bindPopup(popup_02ee2ac17ef97be8ed2ed254b92a4cdb)
+        ;
+
+        
+    
+    
+            var marker_a9cc879f5793d389c6f28ee9a8464c93 = L.marker(
+                [45.7587665, 4.8260433],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_f5beba7e304284d5dad4d92b533b20aa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_05e0c5e5130c0750fe05b37277ff4ea3 = $(`<div id="html_05e0c5e5130c0750fe05b37277ff4ea3" style="width: 100.0%; height: 100.0%;">Club Med Peisey-Vallandry - French Alps 4.5 of 5 bubbles Plan Peisey, Peisey-Vallandry, Savoie, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_f5beba7e304284d5dad4d92b533b20aa.setContent(html_05e0c5e5130c0750fe05b37277ff4ea3);
+            
+        
+
+        marker_a9cc879f5793d389c6f28ee9a8464c93.bindPopup(popup_f5beba7e304284d5dad4d92b533b20aa)
+        ;
+
+        
+    
+    
+            var marker_2feec3a219d8c1aa000db0fcef0a60d3 = L.marker(
+                [45.7646449, 4.8281015],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_8312e0515f47dffa590540c5b1546ec5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ecbe04565e59a63369e8fe8a21ab634d = $(`<div id="html_ecbe04565e59a63369e8fe8a21ab634d" style="width: 100.0%; height: 100.0%;">Big White 4.5 of 5 bubbles 22 rue Lainerie, Lyon, Rhone, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_8312e0515f47dffa590540c5b1546ec5.setContent(html_ecbe04565e59a63369e8fe8a21ab634d);
+            
+        
+
+        marker_2feec3a219d8c1aa000db0fcef0a60d3.bindPopup(popup_8312e0515f47dffa590540c5b1546ec5)
+        ;
+
+        
+    
+    
+            var marker_63b95d82d5b69b4a52e8fcf54e899b4b = L.marker(
+                [45.7661526, 4.8276586],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_b4e319a0aa0f8125612cecce951eea00 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b6d91b6bd18335cf955da4028ec8bc37 = $(`<div id="html_b6d91b6bd18335cf955da4028ec8bc37" style="width: 100.0%; height: 100.0%;">La Cave des Voyageurs 3.5 of 5 bubbles 7 Place Saint Paul, Lyon, Rhone, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_b4e319a0aa0f8125612cecce951eea00.setContent(html_b6d91b6bd18335cf955da4028ec8bc37);
+            
+        
+
+        marker_63b95d82d5b69b4a52e8fcf54e899b4b.bindPopup(popup_b4e319a0aa0f8125612cecce951eea00)
+        ;
+
+        
+    
+    
+            var marker_198aed77946e20dda4b3a810878bb4bc = L.marker(
+                [45.7663243, 4.8271697],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_65f7d168df9b8b67a5917397d22ad5a2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_29b905c0152793f7deb88d9e0992a19b = $(`<div id="html_29b905c0152793f7deb88d9e0992a19b" style="width: 100.0%; height: 100.0%;">Le Bistrouille</div>`)[0];
+                popup_65f7d168df9b8b67a5917397d22ad5a2.setContent(html_29b905c0152793f7deb88d9e0992a19b);
+            
+        
+
+        marker_198aed77946e20dda4b3a810878bb4bc.bindPopup(popup_65f7d168df9b8b67a5917397d22ad5a2)
+        ;
+
+        
+    
+    
+            var marker_30a849944b1df3dad964050b5a7ebf71 = L.marker(
+                [45.7683993, 4.8348396],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_b19ba4bc8ed85eb2223118136b94f451 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aa1ab9917b795583b9eeb48b59cea96f = $(`<div id="html_aa1ab9917b795583b9eeb48b59cea96f" style="width: 100.0%; height: 100.0%;">Ayers Rock</div>`)[0];
+                popup_b19ba4bc8ed85eb2223118136b94f451.setContent(html_aa1ab9917b795583b9eeb48b59cea96f);
+            
+        
+
+        marker_30a849944b1df3dad964050b5a7ebf71.bindPopup(popup_b19ba4bc8ed85eb2223118136b94f451)
+        ;
+
+        
+    
+    
+            var marker_a202461a37416e573f1fe45117bead53 = L.marker(
+                [45.7683977, 4.8349501],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_a8145f37baf0bca2ffa62cb52bc31a0f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6729aec3a44539b0cd28e44fd8f438e8 = $(`<div id="html_6729aec3a44539b0cd28e44fd8f438e8" style="width: 100.0%; height: 100.0%;">Hell's Kitchen</div>`)[0];
+                popup_a8145f37baf0bca2ffa62cb52bc31a0f.setContent(html_6729aec3a44539b0cd28e44fd8f438e8);
+            
+        
+
+        marker_a202461a37416e573f1fe45117bead53.bindPopup(popup_a8145f37baf0bca2ffa62cb52bc31a0f)
+        ;
+
+        
+    
+    
+            var marker_90885f3745adb57db60d1b19f54e6ae5 = L.marker(
+                [45.7695669, 4.8372671],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_ff0513855459cc794b21e82d4e447c27 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_418c9018716c720c5662aa42247e2122 = $(`<div id="html_418c9018716c720c5662aa42247e2122" style="width: 100.0%; height: 100.0%;">The Monkey Club</div>`)[0];
+                popup_ff0513855459cc794b21e82d4e447c27.setContent(html_418c9018716c720c5662aa42247e2122);
+            
+        
+
+        marker_90885f3745adb57db60d1b19f54e6ae5.bindPopup(popup_ff0513855459cc794b21e82d4e447c27)
+        ;
+
+        
+    
+    
+            var marker_da470dd17ce34218b6687151cdef7c67 = L.marker(
+                [45.7601861, 4.8316488],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_2ccc6a6ee519e8d91229a5421fbf23d3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6edf3556c3fae78d8d87a5b4f2530e85 = $(`<div id="html_6edf3556c3fae78d8d87a5b4f2530e85" style="width: 100.0%; height: 100.0%;">La Loge</div>`)[0];
+                popup_2ccc6a6ee519e8d91229a5421fbf23d3.setContent(html_6edf3556c3fae78d8d87a5b4f2530e85);
+            
+        
+
+        marker_da470dd17ce34218b6687151cdef7c67.bindPopup(popup_2ccc6a6ee519e8d91229a5421fbf23d3)
+        ;
+
+        
+    
+    
+            var marker_4cd22e953cc68c0466e1044cb6863164 = L.marker(
+                [45.7516727, 4.82844],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_f54192aa4cd7881f70618eead5c55bed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_456e70932b22bdf0ca74dfdfa90914d0 = $(`<div id="html_456e70932b22bdf0ca74dfdfa90914d0" style="width: 100.0%; height: 100.0%;">Viktor</div>`)[0];
+                popup_f54192aa4cd7881f70618eead5c55bed.setContent(html_456e70932b22bdf0ca74dfdfa90914d0);
+            
+        
+
+        marker_4cd22e953cc68c0466e1044cb6863164.bindPopup(popup_f54192aa4cd7881f70618eead5c55bed)
+        ;
+
+        
+    
+    
+            var marker_b41895b4b5d03d1e36a582c884be92eb = L.marker(
+                [45.7518753, 4.829457],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_fdf0736a3864be0f0f67404a77148711 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5ceea2446017cf1e660b20e517e4f229 = $(`<div id="html_5ceea2446017cf1e660b20e517e4f229" style="width: 100.0%; height: 100.0%;">Le Marco Polo</div>`)[0];
+                popup_fdf0736a3864be0f0f67404a77148711.setContent(html_5ceea2446017cf1e660b20e517e4f229);
+            
+        
+
+        marker_b41895b4b5d03d1e36a582c884be92eb.bindPopup(popup_fdf0736a3864be0f0f67404a77148711)
+        ;
+
+        
+    
+    
+            var marker_1938b1fcf11be39a250386c778b154db = L.marker(
+                [45.7532805, 4.8411481],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_2a20a093521a486ed5e4807ece8f104c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bcf17fd2015558abc6efc795976b66bc = $(`<div id="html_bcf17fd2015558abc6efc795976b66bc" style="width: 100.0%; height: 100.0%;">Le Pacha de Lyon</div>`)[0];
+                popup_2a20a093521a486ed5e4807ece8f104c.setContent(html_bcf17fd2015558abc6efc795976b66bc);
+            
+        
+
+        marker_1938b1fcf11be39a250386c778b154db.bindPopup(popup_2a20a093521a486ed5e4807ece8f104c)
+        ;
+
+        
+    
+    
+            var marker_0385b231803c64387a9762868da797e3 = L.marker(
+                [45.7530292, 4.8419051],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_933f51ad8aa7f2b4d434b93b6c62db73 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8f953be00777045319b131feca5626f5 = $(`<div id="html_8f953be00777045319b131feca5626f5" style="width: 100.0%; height: 100.0%;">Le Mini Bar</div>`)[0];
+                popup_933f51ad8aa7f2b4d434b93b6c62db73.setContent(html_8f953be00777045319b131feca5626f5);
+            
+        
+
+        marker_0385b231803c64387a9762868da797e3.bindPopup(popup_933f51ad8aa7f2b4d434b93b6c62db73)
+        ;
+
+        
+    
+    
+            var marker_5773b030320722e2917d0954901c0f3f = L.marker(
+                [45.7498805, 4.8525511],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_49c958235e79e968c22102bd6580226f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_41a155cf103b21de49abf6f77bae444b = $(`<div id="html_41a155cf103b21de49abf6f77bae444b" style="width: 100.0%; height: 100.0%;">Jungle</div>`)[0];
+                popup_49c958235e79e968c22102bd6580226f.setContent(html_41a155cf103b21de49abf6f77bae444b);
+            
+        
+
+        marker_5773b030320722e2917d0954901c0f3f.bindPopup(popup_49c958235e79e968c22102bd6580226f)
+        ;
+
+        
+    
+    
+            var marker_a5a562d8effad174fbd1becaece179c3 = L.marker(
+                [45.7506237, 4.8478935],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_d60fc49bbd6afe6ebf6b951cca95389c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e229b3823c2c8819ab774a5d70ebe9f = $(`<div id="html_1e229b3823c2c8819ab774a5d70ebe9f" style="width: 100.0%; height: 100.0%;">Lyonnais K'Fé</div>`)[0];
+                popup_d60fc49bbd6afe6ebf6b951cca95389c.setContent(html_1e229b3823c2c8819ab774a5d70ebe9f);
+            
+        
+
+        marker_a5a562d8effad174fbd1becaece179c3.bindPopup(popup_d60fc49bbd6afe6ebf6b951cca95389c)
+        ;
+
+        
+    
+    
+            var marker_7f88c646c8f97caa29bbcee34b27a682 = L.marker(
+                [45.7454855, 4.8455058],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_3bff60e8f2b23495b39dd06604b91964 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6cd9e3bc6292d45d116fba107999ef01 = $(`<div id="html_6cd9e3bc6292d45d116fba107999ef01" style="width: 100.0%; height: 100.0%;">Pint'A Gone</div>`)[0];
+                popup_3bff60e8f2b23495b39dd06604b91964.setContent(html_6cd9e3bc6292d45d116fba107999ef01);
+            
+        
+
+        marker_7f88c646c8f97caa29bbcee34b27a682.bindPopup(popup_3bff60e8f2b23495b39dd06604b91964)
+        ;
+
+        
+    
+    
+            var marker_4ddb01185780092dc3d2ea6322cb0a24 = L.marker(
+                [45.7592666, 4.8417953],
+                {}
+            ).addTo(map_fea16e40a959ca0079f6dbbdd6885e60);
+        
+    
+        var popup_747e408fcefbf6e0e274d91a02c7d7c1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fcf0515e0eba520e3f2693344622338a = $(`<div id="html_fcf0515e0eba520e3f2693344622338a" style="width: 100.0%; height: 100.0%;">La Movida</div>`)[0];
+                popup_747e408fcefbf6e0e274d91a02c7d7c1.setContent(html_fcf0515e0eba520e3f2693344622338a);
+            
+        
+
+        marker_4ddb01185780092dc3d2ea6322cb0a24.bindPopup(popup_747e408fcefbf6e0e274d91a02c7d7c1)
+        ;
+
+        
+    
+</script>
+</html>

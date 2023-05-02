@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0ea479c28ad3e6f83e86d8790b904b43 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_0ea479c28ad3e6f83e86d8790b904b43" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_0ea479c28ad3e6f83e86d8790b904b43 = L.map(
+                "map_0ea479c28ad3e6f83e86d8790b904b43",
+                {
+                    center: [45.8992348, 6.1288847],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_67fb2e2da3b93428dc9c47c2942da61c = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_0ea479c28ad3e6f83e86d8790b904b43);
+        
+    
+            var marker_40759dc1a0479237ff48be450934d23c = L.marker(
+                [45.9061747, 6.1162398],
+                {}
+            ).addTo(map_0ea479c28ad3e6f83e86d8790b904b43);
+        
+    
+        var popup_c1152866e9887cf578eace64abb452ae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_883da2c9b7a0360f1291fa33ef7c8b4a = $(`<div id="html_883da2c9b7a0360f1291fa33ef7c8b4a" style="width: 100.0%; height: 100.0%;">Le Ryad 4.5 of 5 bubbles 38 avenue de Cran, Annecy, Haute-Savoie, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_c1152866e9887cf578eace64abb452ae.setContent(html_883da2c9b7a0360f1291fa33ef7c8b4a);
+            
+        
+
+        marker_40759dc1a0479237ff48be450934d23c.bindPopup(popup_c1152866e9887cf578eace64abb452ae)
+        ;
+
+        
+    
+    
+            var marker_13014a9e7e9be82ae7782abee3f1a16d = L.marker(
+                [45.903277, 6.117968],
+                {}
+            ).addTo(map_0ea479c28ad3e6f83e86d8790b904b43);
+        
+    
+        var popup_ee17d78e093497a29dbf741f4bc7acb5 = L.popup({"maxWidth": "100%"});
+
+        
+
+        marker_13014a9e7e9be82ae7782abee3f1a16d.bindPopup(popup_ee17d78e093497a29dbf741f4bc7acb5)
+        ;
+
+        
+    
+    
+            var marker_5bec1e407e5a6c8f6da45d5b7de2e272 = L.marker(
+                [45.9069464, 6.1341235],
+                {}
+            ).addTo(map_0ea479c28ad3e6f83e86d8790b904b43);
+        
+    
+        var popup_6257c5a0ee0dddece0af5aa9aae14693 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_473fb7000108a5e126f913ed8a823dd8 = $(`<div id="html_473fb7000108a5e126f913ed8a823dd8" style="width: 100.0%; height: 100.0%;">Noly's café</div>`)[0];
+                popup_6257c5a0ee0dddece0af5aa9aae14693.setContent(html_473fb7000108a5e126f913ed8a823dd8);
+            
+        
+
+        marker_5bec1e407e5a6c8f6da45d5b7de2e272.bindPopup(popup_6257c5a0ee0dddece0af5aa9aae14693)
+        ;
+
+        
+    
+    
+            var marker_79d2e85574fa1c16fbeb81249d3670f7 = L.marker(
+                [45.9071673, 6.1400203],
+                {}
+            ).addTo(map_0ea479c28ad3e6f83e86d8790b904b43);
+        
+    
+        var popup_d88d1e00d5936a0d64a40825ffed300b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c76d462ce03cea71e4e45b13d08bbad = $(`<div id="html_4c76d462ce03cea71e4e45b13d08bbad" style="width: 100.0%; height: 100.0%;">L'amnésie</div>`)[0];
+                popup_d88d1e00d5936a0d64a40825ffed300b.setContent(html_4c76d462ce03cea71e4e45b13d08bbad);
+            
+        
+
+        marker_79d2e85574fa1c16fbeb81249d3670f7.bindPopup(popup_d88d1e00d5936a0d64a40825ffed300b)
+        ;
+
+        
+    
+    
+            var marker_e15d6351cd207e84406568c54b85b013 = L.marker(
+                [45.8883564, 6.1014698],
+                {}
+            ).addTo(map_0ea479c28ad3e6f83e86d8790b904b43);
+        
+    
+        var popup_16049da7c99bae7f020f32dc5611b3d8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c5e790fb8b1252910a2e2773e22bead9 = $(`<div id="html_c5e790fb8b1252910a2e2773e22bead9" style="width: 100.0%; height: 100.0%;">L'art Seyn 4.5 of 5 bubbles Place de L'hotel de Ville, Seynod, Annecy, Haute-Savoie, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_16049da7c99bae7f020f32dc5611b3d8.setContent(html_c5e790fb8b1252910a2e2773e22bead9);
+            
+        
+
+        marker_e15d6351cd207e84406568c54b85b013.bindPopup(popup_16049da7c99bae7f020f32dc5611b3d8)
+        ;
+
+        
+    
+    
+            var marker_4b7bd98e9dd35b5ad688ad771cde0270 = L.marker(
+                [45.8974291, 6.1230119],
+                {}
+            ).addTo(map_0ea479c28ad3e6f83e86d8790b904b43);
+        
+    
+        var popup_1673536148a4c2d39684d76154a983e7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a8334693ec848ae9960e81303093d60b = $(`<div id="html_a8334693ec848ae9960e81303093d60b" style="width: 100.0%; height: 100.0%;">Beer O'clock 4.5 of 5 bubbles 18 Faubourg Sainte Claire, Annecy, Haute-Savoie, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_1673536148a4c2d39684d76154a983e7.setContent(html_a8334693ec848ae9960e81303093d60b);
+            
+        
+
+        marker_4b7bd98e9dd35b5ad688ad771cde0270.bindPopup(popup_1673536148a4c2d39684d76154a983e7)
+        ;
+
+        
+    
+    
+            var marker_63d41dec39a7115b1fa072228b7a706c = L.marker(
+                [45.9016161, 6.1261844],
+                {}
+            ).addTo(map_0ea479c28ad3e6f83e86d8790b904b43);
+        
+    
+        var popup_ae2a3fed8f24e5240526731985f4014b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_95cca9b83b00f53f0db3c6631abc56f9 = $(`<div id="html_95cca9b83b00f53f0db3c6631abc56f9" style="width: 100.0%; height: 100.0%;">Shelter Bar 4.5 of 5 bubbles 6 rue Vaugelas, Annecy, Haute-Savoie, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_ae2a3fed8f24e5240526731985f4014b.setContent(html_95cca9b83b00f53f0db3c6631abc56f9);
+            
+        
+
+        marker_63d41dec39a7115b1fa072228b7a706c.bindPopup(popup_ae2a3fed8f24e5240526731985f4014b)
+        ;
+
+        
+    
+    
+            var marker_452181b4c587eff72d5a41fd4db8f7c2 = L.marker(
+                [45.8984091, 6.1242716],
+                {}
+            ).addTo(map_0ea479c28ad3e6f83e86d8790b904b43);
+        
+    
+        var popup_e6a1632ef159391749bc57f055c01211 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_638899fe415cfd84a630ae428d0bcf64 = $(`<div id="html_638899fe415cfd84a630ae428d0bcf64" style="width: 100.0%; height: 100.0%;">La Buvette du Marche 4.5 of 5 bubbles 20 rue Sainte Claire, Annecy, Haute-Savoie, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_e6a1632ef159391749bc57f055c01211.setContent(html_638899fe415cfd84a630ae428d0bcf64);
+            
+        
+
+        marker_452181b4c587eff72d5a41fd4db8f7c2.bindPopup(popup_e6a1632ef159391749bc57f055c01211)
+        ;
+
+        
+    
+    
+            var marker_c475f7e149347a9650b733e5831afd42 = L.marker(
+                [45.8991114, 6.1243456],
+                {}
+            ).addTo(map_0ea479c28ad3e6f83e86d8790b904b43);
+        
+    
+        var popup_ac0f3487104a21a130e987bee34e7377 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8aac7e5f1b010cf48bb18774130d2190 = $(`<div id="html_8aac7e5f1b010cf48bb18774130d2190" style="width: 100.0%; height: 100.0%;">Musee Jean-Jacques Rousseau 4 of 5 bubbles Rue Jean-Jacques Rousseau, Motiers, Switzerland</div>`)[0];
+                popup_ac0f3487104a21a130e987bee34e7377.setContent(html_8aac7e5f1b010cf48bb18774130d2190);
+            
+        
+
+        marker_c475f7e149347a9650b733e5831afd42.bindPopup(popup_ac0f3487104a21a130e987bee34e7377)
+        ;
+
+        
+    
+    
+            var marker_52201decff365d3c9182d4f954a9609c = L.marker(
+                [45.8996593, 6.1234896],
+                {}
+            ).addTo(map_0ea479c28ad3e6f83e86d8790b904b43);
+        
+    
+        var popup_f98939234ebd683bc85e1970c5a5da61 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b329f4f5bab7e742b8945af870e2434 = $(`<div id="html_2b329f4f5bab7e742b8945af870e2434" style="width: 100.0%; height: 100.0%;">Le Bar Roux d'Heure 4.5 of 5 bubbles 6 rue Filaterie, Annecy, Haute-Savoie, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_f98939234ebd683bc85e1970c5a5da61.setContent(html_2b329f4f5bab7e742b8945af870e2434);
+            
+        
+
+        marker_52201decff365d3c9182d4f954a9609c.bindPopup(popup_f98939234ebd683bc85e1970c5a5da61)
+        ;
+
+        
+    
+    
+            var marker_16c4b949ef325114716cb2f9efc3fa28 = L.marker(
+                [45.8937152, 6.1178107],
+                {}
+            ).addTo(map_0ea479c28ad3e6f83e86d8790b904b43);
+        
+    
+        var popup_800e3f649ad04c4c0777cf92f1eb94af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f4284549e260f54095e537f764de5bb0 = $(`<div id="html_f4284549e260f54095e537f764de5bb0" style="width: 100.0%; height: 100.0%;">Woodstock Bar</div>`)[0];
+                popup_800e3f649ad04c4c0777cf92f1eb94af.setContent(html_f4284549e260f54095e537f764de5bb0);
+            
+        
+
+        marker_16c4b949ef325114716cb2f9efc3fa28.bindPopup(popup_800e3f649ad04c4c0777cf92f1eb94af)
+        ;
+
+        
+    
+    
+            var marker_1fa4363a6fcc617fbf16d27b3c6e1e48 = L.marker(
+                [45.8980828, 6.1262787],
+                {}
+            ).addTo(map_0ea479c28ad3e6f83e86d8790b904b43);
+        
+    
+        var popup_3242ceddc272e17ff08b3a420b32f9f1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8c2ad10e5a884ca7f572788cd3c14009 = $(`<div id="html_8c2ad10e5a884ca7f572788cd3c14009" style="width: 100.0%; height: 100.0%;">Les Caves Du Chateau 4 of 5 bubbles 6 Rpe du Chateau, Annecy, Haute-Savoie, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_3242ceddc272e17ff08b3a420b32f9f1.setContent(html_8c2ad10e5a884ca7f572788cd3c14009);
+            
+        
+
+        marker_1fa4363a6fcc617fbf16d27b3c6e1e48.bindPopup(popup_3242ceddc272e17ff08b3a420b32f9f1)
+        ;
+
+        
+    
+    
+            var marker_e9cf62ff86bbf430f283fc0784922a21 = L.marker(
+                [45.9012967, 6.126559],
+                {}
+            ).addTo(map_0ea479c28ad3e6f83e86d8790b904b43);
+        
+    
+        var popup_79c997e43b15fd34dd71fe12cad10cc4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d97ec7fee3f713e702bb81320cf0172f = $(`<div id="html_d97ec7fee3f713e702bb81320cf0172f" style="width: 100.0%; height: 100.0%;">La Cave 4.5 of 5 bubbles 8 rue du Paquier, Annecy, Haute-Savoie, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_79c997e43b15fd34dd71fe12cad10cc4.setContent(html_d97ec7fee3f713e702bb81320cf0172f);
+            
+        
+
+        marker_e9cf62ff86bbf430f283fc0784922a21.bindPopup(popup_79c997e43b15fd34dd71fe12cad10cc4)
+        ;
+
+        
+    
+    
+            var marker_4b526d8b599e1d31e03e353ac5ae4e1b = L.marker(
+                [45.9025734, 6.1269037],
+                {}
+            ).addTo(map_0ea479c28ad3e6f83e86d8790b904b43);
+        
+    
+        var popup_2d43ef3696cdb5aa6884a884d04dca74 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e2ac19972afe483548f13e90ea105e90 = $(`<div id="html_e2ac19972afe483548f13e90ea105e90" style="width: 100.0%; height: 100.0%;">Le ouistiti a roulettes 5 of 5 bubbles 31 rue Sommeiller, Annecy, Haute-Savoie, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_2d43ef3696cdb5aa6884a884d04dca74.setContent(html_e2ac19972afe483548f13e90ea105e90);
+            
+        
+
+        marker_4b526d8b599e1d31e03e353ac5ae4e1b.bindPopup(popup_2d43ef3696cdb5aa6884a884d04dca74)
+        ;
+
+        
+    
+    
+            var marker_3647f2e787de3ee2ae3ab63fdda2d167 = L.marker(
+                [45.909026, 6.1173535],
+                {}
+            ).addTo(map_0ea479c28ad3e6f83e86d8790b904b43);
+        
+    
+        var popup_8298bb7a0bc4f852ca1d68cc872f2905 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_880b8e779b6b23f0c6e7e734165cdf68 = $(`<div id="html_880b8e779b6b23f0c6e7e734165cdf68" style="width: 100.0%; height: 100.0%;">La Demarrante 5 of 5 bubbles 21 avenue des Iles, Annecy, Haute-Savoie, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_8298bb7a0bc4f852ca1d68cc872f2905.setContent(html_880b8e779b6b23f0c6e7e734165cdf68);
+            
+        
+
+        marker_3647f2e787de3ee2ae3ab63fdda2d167.bindPopup(popup_8298bb7a0bc4f852ca1d68cc872f2905)
+        ;
+
+        
+    
+    
+            var marker_3fa450d49095df99af855107cc385d5b = L.marker(
+                [45.9005022, 6.1243641],
+                {}
+            ).addTo(map_0ea479c28ad3e6f83e86d8790b904b43);
+        
+    
+        var popup_5cce505d1f35cbc201f64d0a663c0a74 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_46c6e39960d5a2a2ea1cfcd6b812a1f9 = $(`<div id="html_46c6e39960d5a2a2ea1cfcd6b812a1f9" style="width: 100.0%; height: 100.0%;">Petit Bistrot 2.5 of 5 bubbles Via Guglielmo Marconi 6, Courmayeur, Valle d'Aosta, Italy</div>`)[0];
+                popup_5cce505d1f35cbc201f64d0a663c0a74.setContent(html_46c6e39960d5a2a2ea1cfcd6b812a1f9);
+            
+        
+
+        marker_3fa450d49095df99af855107cc385d5b.bindPopup(popup_5cce505d1f35cbc201f64d0a663c0a74)
+        ;
+
+        
+    
+    
+            var marker_e34f4078145abaf9a4832ce7f80e9c9a = L.marker(
+                [45.8997101, 6.1234787],
+                {}
+            ).addTo(map_0ea479c28ad3e6f83e86d8790b904b43);
+        
+    
+        var popup_7b9c4d23e02c5d5dd2fb66f10b49bc53 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_396bf0605117da2c819f52f3bed902aa = $(`<div id="html_396bf0605117da2c819f52f3bed902aa" style="width: 100.0%; height: 100.0%;">Au Fut Et A Mesure 4 of 5 bubbles 6 rue de la Republique, Annecy, Haute-Savoie, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_7b9c4d23e02c5d5dd2fb66f10b49bc53.setContent(html_396bf0605117da2c819f52f3bed902aa);
+            
+        
+
+        marker_e34f4078145abaf9a4832ce7f80e9c9a.bindPopup(popup_7b9c4d23e02c5d5dd2fb66f10b49bc53)
+        ;
+
+        
+    
+    
+            var marker_f014977305ccd9b7a87a3b49bba21e5c = L.marker(
+                [45.8976384, 6.1287938],
+                {}
+            ).addTo(map_0ea479c28ad3e6f83e86d8790b904b43);
+        
+    
+        var popup_7050cb73eeefe77dcc2374a797130da5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5835b06eedd609ac4a1b65380126c1f8 = $(`<div id="html_5835b06eedd609ac4a1b65380126c1f8" style="width: 100.0%; height: 100.0%;">La Verriere 4 of 5 bubbles 12 Fbg des Annonciades, Annecy, Haute-Savoie, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_7050cb73eeefe77dcc2374a797130da5.setContent(html_5835b06eedd609ac4a1b65380126c1f8);
+            
+        
+
+        marker_f014977305ccd9b7a87a3b49bba21e5c.bindPopup(popup_7050cb73eeefe77dcc2374a797130da5)
+        ;
+
+        
+    
+    
+            var marker_4e72a6d41275e57a6c8f69578f3535f2 = L.marker(
+                [45.8981097, 6.1272944],
+                {}
+            ).addTo(map_0ea479c28ad3e6f83e86d8790b904b43);
+        
+    
+        var popup_a4479b09c608fdb172b983b78a306ec9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6873e4be3e2839119a705142f1b92b6b = $(`<div id="html_6873e4be3e2839119a705142f1b92b6b" style="width: 100.0%; height: 100.0%;">Le 14% Vol 4 of 5 bubbles 14 rue Perriere, Annecy, Haute-Savoie, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_a4479b09c608fdb172b983b78a306ec9.setContent(html_6873e4be3e2839119a705142f1b92b6b);
+            
+        
+
+        marker_4e72a6d41275e57a6c8f69578f3535f2.bindPopup(popup_a4479b09c608fdb172b983b78a306ec9)
+        ;
+
+        
+    
+    
+            var marker_182fe38238c3c6be39c8106471092d84 = L.marker(
+                [45.9042215, 6.1599153],
+                {}
+            ).addTo(map_0ea479c28ad3e6f83e86d8790b904b43);
+        
+    
+        var popup_d894e4703af991dea27ac6a42cb6e4cd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_10e2bf1b544ee6557666bcd4ce2dedc9 = $(`<div id="html_10e2bf1b544ee6557666bcd4ce2dedc9" style="width: 100.0%; height: 100.0%;">Chez Cocotte 4 of 5 bubbles 17 avenue de Chavoires, Annecy-le-Vieux, Haute-Savoie, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_d894e4703af991dea27ac6a42cb6e4cd.setContent(html_10e2bf1b544ee6557666bcd4ce2dedc9);
+            
+        
+
+        marker_182fe38238c3c6be39c8106471092d84.bindPopup(popup_d894e4703af991dea27ac6a42cb6e4cd)
+        ;
+
+        
+    
+    
+            var marker_d5d686817e9417498df8e046f31c2226 = L.marker(
+                [45.8982994, 6.1161852],
+                {}
+            ).addTo(map_0ea479c28ad3e6f83e86d8790b904b43);
+        
+    
+        var popup_39626e15c4ade1a3db26c6911698c43c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e2d2fd9de5a6c657ec06a9d8fab88286 = $(`<div id="html_e2d2fd9de5a6c657ec06a9d8fab88286" style="width: 100.0%; height: 100.0%;">Just One Beer</div>`)[0];
+                popup_39626e15c4ade1a3db26c6911698c43c.setContent(html_e2d2fd9de5a6c657ec06a9d8fab88286);
+            
+        
+
+        marker_d5d686817e9417498df8e046f31c2226.bindPopup(popup_39626e15c4ade1a3db26c6911698c43c)
+        ;
+
+        
+    
+    
+            var marker_d900d97e4edda8fec028e32067255c1a = L.marker(
+                [45.9026632, 6.1270368],
+                {}
+            ).addTo(map_0ea479c28ad3e6f83e86d8790b904b43);
+        
+    
+        var popup_0bce00dceba60754f29de4de5bc5a422 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8f863588752a5cef5a423e1e3d719158 = $(`<div id="html_8f863588752a5cef5a423e1e3d719158" style="width: 100.0%; height: 100.0%;">Club Med Pragelato-Sestriere 4.5 of 5 bubbles Via Monte Orsiera N_1 Frazione, Pragelato, Province of Turin, Piedmont, Italy</div>`)[0];
+                popup_0bce00dceba60754f29de4de5bc5a422.setContent(html_8f863588752a5cef5a423e1e3d719158);
+            
+        
+
+        marker_d900d97e4edda8fec028e32067255c1a.bindPopup(popup_0bce00dceba60754f29de4de5bc5a422)
+        ;
+
+        
+    
+    
+            var marker_678a39dd789a599b40d4bfb65b9a6610 = L.marker(
+                [45.8995849, 6.1241022],
+                {}
+            ).addTo(map_0ea479c28ad3e6f83e86d8790b904b43);
+        
+    
+        var popup_0f026eb927ea592082f99ee1e2afea14 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a12f2dcdb95aa44503bb927d455aee21 = $(`<div id="html_a12f2dcdb95aa44503bb927d455aee21" style="width: 100.0%; height: 100.0%;">Le Cerf Volant 5 of 5 bubbles 4 quai Madame de Warens, Annecy, Haute-Savoie, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_0f026eb927ea592082f99ee1e2afea14.setContent(html_a12f2dcdb95aa44503bb927d455aee21);
+            
+        
+
+        marker_678a39dd789a599b40d4bfb65b9a6610.bindPopup(popup_0f026eb927ea592082f99ee1e2afea14)
+        ;
+
+        
+    
+    
+            var marker_b7741d7c7bbdfc49b70962957e730118 = L.marker(
+                [45.9061891, 6.1328436],
+                {}
+            ).addTo(map_0ea479c28ad3e6f83e86d8790b904b43);
+        
+    
+        var popup_c5fefd6e73e245d7684dfa85bd8d9f15 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_10e338f61919381b50bdc893f5e3798c = $(`<div id="html_10e338f61919381b50bdc893f5e3798c" style="width: 100.0%; height: 100.0%;">FOL Gourmet Popcorn 4.5 of 5 bubbles Via Maria Vittoria 2, Turin, Province of Turin, Piedmont, Italy</div>`)[0];
+                popup_c5fefd6e73e245d7684dfa85bd8d9f15.setContent(html_10e338f61919381b50bdc893f5e3798c);
+            
+        
+
+        marker_b7741d7c7bbdfc49b70962957e730118.bindPopup(popup_c5fefd6e73e245d7684dfa85bd8d9f15)
+        ;
+
+        
+    
+    
+            var marker_d54233059854a2f455463b0bb001618e = L.marker(
+                [45.9062784, 6.1138612],
+                {}
+            ).addTo(map_0ea479c28ad3e6f83e86d8790b904b43);
+        
+    
+        var popup_9e0797b1da42a41eb45e951d1cf1d963 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c716455d875f0ed0f1879f2af277bc5c = $(`<div id="html_c716455d875f0ed0f1879f2af277bc5c" style="width: 100.0%; height: 100.0%;">Brasserie des Europeens 3.5 of 5 bubbles Annecy, Haute-Savoie, Auvergne-Rhone-Alpes, France</div>`)[0];
+                popup_9e0797b1da42a41eb45e951d1cf1d963.setContent(html_c716455d875f0ed0f1879f2af277bc5c);
+            
+        
+
+        marker_d54233059854a2f455463b0bb001618e.bindPopup(popup_9e0797b1da42a41eb45e951d1cf1d963)
+        ;
+
+        
+    
+</script>
+</html>
